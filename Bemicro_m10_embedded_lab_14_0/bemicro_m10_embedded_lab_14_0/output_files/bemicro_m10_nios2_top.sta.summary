@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 4.951
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'SYS_CLK'
+Slack : 8.889
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'altera_internal_jtag~TCKUTAP'
+Slack : 45.916
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 0.333
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SYS_CLK'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'altera_internal_jtag~TCKUTAP'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 14.435
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'SYS_CLK'
+Slack : 14.892
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'altera_internal_jtag~TCKUTAP'
+Slack : 48.091
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'SYS_CLK'
+Slack : 1.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'altera_internal_jtag~TCKUTAP'
+Slack : 1.533
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 1.550
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 7.836
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SYS_CLK'
+Slack : 9.564
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'USER_CLK'
+Slack : 37.667
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u0|adc_pll|sd1|pll7|clk[0]'
+Slack : 44.780
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'altera_internal_jtag~TCKUTAP'
+Slack : 49.749
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.905
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 5.186
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'SYS_CLK'
+Slack : 9.469
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'altera_internal_jtag~TCKUTAP'
+Slack : 46.080
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SYS_CLK'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'altera_internal_jtag~TCKUTAP'
+Slack : 0.323
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 14.758
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'SYS_CLK'
+Slack : 15.218
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'altera_internal_jtag~TCKUTAP'
+Slack : 48.228
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'SYS_CLK'
+Slack : 0.968
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'altera_internal_jtag~TCKUTAP'
+Slack : 1.366
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 1.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 7.802
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SYS_CLK'
+Slack : 9.574
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'USER_CLK'
+Slack : 37.667
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u0|adc_pll|sd1|pll7|clk[0]'
+Slack : 44.884
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'altera_internal_jtag~TCKUTAP'
+Slack : 49.751
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.928
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 7.237
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SYS_CLK'
+Slack : 15.581
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'altera_internal_jtag~TCKUTAP'
+Slack : 48.334
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 0.113
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SYS_CLK'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'altera_internal_jtag~TCKUTAP'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 17.690
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'SYS_CLK'
+Slack : 17.729
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'altera_internal_jtag~TCKUTAP'
+Slack : 49.168
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'SYS_CLK'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'altera_internal_jtag~TCKUTAP'
+Slack : 0.622
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 0.638
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u0|sdram_pll|sd1|pll7|clk[0]'
+Slack : 7.958
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SYS_CLK'
+Slack : 9.237
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'USER_CLK'
+Slack : 37.667
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u0|adc_pll|sd1|pll7|clk[0]'
+Slack : 44.903
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.665
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'altera_internal_jtag~TCKUTAP'
+Slack : 49.756
+TNS   : 0.000
+
+------------------------------------------------------------

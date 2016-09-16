@@ -1,0 +1,230 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\spraman\Desktop\BeMicro_SDRAM\Bemicro_m10_embedded_lab_14_0\bemicro_m10_embedded_lab_14_0\nios2_bemicro_system.qsys --block-symbol-file --output-directory=C:\Users\spraman\Desktop\BeMicro_SDRAM\Bemicro_m10_embedded_lab_14_0\bemicro_m10_embedded_lab_14_0\nios2_bemicro_system --family="MAX 10" --part=10M08DAF484C8GES
+Progress: Loading bemicro_m10_embedded_lab_14_0/nios2_bemicro_system.qsys
+Progress: Reading input file
+Progress: Adding adc_pll [altpll 16.0]
+Progress: Parameterizing module adc_pll
+Progress: Adding button_pio [altera_avalon_pio 16.0]
+Progress: Parameterizing module button_pio
+Progress: Adding clk_0 [clock_source 16.0]
+Progress: Parameterizing module clk_0
+Progress: Adding i2c_temp_sense [i2c_opencores 13.0]
+Progress: Parameterizing module i2c_temp_sense
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 16.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio [altera_avalon_pio 16.0]
+Progress: Parameterizing module led_pio
+Progress: Adding modular_adc [altera_modular_adc 16.0]
+Progress: Parameterizing module modular_adc
+Progress: Adding nios2_cpu [altera_nios2_gen2 16.0]
+Progress: Parameterizing module nios2_cpu
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module onchip_ram
+Progress: Adding sdram [altera_avalon_new_sdram_controller 16.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 16.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding slow_periph_bridge [altera_avalon_mm_clock_crossing_bridge 16.0]
+Progress: Parameterizing module slow_periph_bridge
+Progress: Adding spi_accelerometer [altera_avalon_spi 16.0]
+Progress: Parameterizing module spi_accelerometer
+Progress: Adding spi_dac [altera_avalon_spi 16.0]
+Progress: Parameterizing module spi_dac
+Progress: Adding sysid [altera_avalon_sysid_qsys 16.0]
+Progress: Parameterizing module sysid
+Progress: Adding timer [altera_avalon_timer 16.0]
+Progress: Parameterizing module timer
+Progress: Adding ufm_flash [altera_onchip_flash 16.0]
+Progress: Parameterizing module ufm_flash
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios2_bemicro_system.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios2_bemicro_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios2_bemicro_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\spraman\Desktop\BeMicro_SDRAM\Bemicro_m10_embedded_lab_14_0\bemicro_m10_embedded_lab_14_0\nios2_bemicro_system.qsys --synthesis=VERILOG --output-directory=C:\Users\spraman\Desktop\BeMicro_SDRAM\Bemicro_m10_embedded_lab_14_0\bemicro_m10_embedded_lab_14_0\nios2_bemicro_system\synthesis --family="MAX 10" --part=10M08DAF484C8GES
+Progress: Loading bemicro_m10_embedded_lab_14_0/nios2_bemicro_system.qsys
+Progress: Reading input file
+Progress: Adding adc_pll [altpll 16.0]
+Progress: Parameterizing module adc_pll
+Progress: Adding button_pio [altera_avalon_pio 16.0]
+Progress: Parameterizing module button_pio
+Progress: Adding clk_0 [clock_source 16.0]
+Progress: Parameterizing module clk_0
+Progress: Adding i2c_temp_sense [i2c_opencores 13.0]
+Progress: Parameterizing module i2c_temp_sense
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 16.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio [altera_avalon_pio 16.0]
+Progress: Parameterizing module led_pio
+Progress: Adding modular_adc [altera_modular_adc 16.0]
+Progress: Parameterizing module modular_adc
+Progress: Adding nios2_cpu [altera_nios2_gen2 16.0]
+Progress: Parameterizing module nios2_cpu
+Progress: Adding onchip_ram [altera_avalon_onchip_memory2 16.0]
+Progress: Parameterizing module onchip_ram
+Progress: Adding sdram [altera_avalon_new_sdram_controller 16.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 16.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding slow_periph_bridge [altera_avalon_mm_clock_crossing_bridge 16.0]
+Progress: Parameterizing module slow_periph_bridge
+Progress: Adding spi_accelerometer [altera_avalon_spi 16.0]
+Progress: Parameterizing module spi_accelerometer
+Progress: Adding spi_dac [altera_avalon_spi 16.0]
+Progress: Parameterizing module spi_dac
+Progress: Adding sysid [altera_avalon_sysid_qsys 16.0]
+Progress: Parameterizing module sysid
+Progress: Adding timer [altera_avalon_timer 16.0]
+Progress: Parameterizing module timer
+Progress: Adding ufm_flash [altera_onchip_flash 16.0]
+Progress: Parameterizing module ufm_flash
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios2_bemicro_system.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios2_bemicro_system.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios2_bemicro_system.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios2_bemicro_system: Generating nios2_bemicro_system "nios2_bemicro_system" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src3 and cmd_mux_003.sink0
+Info: Inserting clock-crossing logic between cmd_demux.src4 and cmd_mux_004.sink0
+Info: Inserting clock-crossing logic between rsp_demux_003.src0 and rsp_mux.sink3
+Info: Inserting clock-crossing logic between rsp_demux_004.src0 and rsp_mux.sink4
+Info: adc_pll: "nios2_bemicro_system" instantiated altpll "adc_pll"
+Info: button_pio: Starting RTL generation for module 'nios2_bemicro_system_button_pio'
+Info: button_pio:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_bemicro_system_button_pio --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0003_button_pio_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0003_button_pio_gen//nios2_bemicro_system_button_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: button_pio: Done RTL generation for module 'nios2_bemicro_system_button_pio'
+Info: button_pio: "nios2_bemicro_system" instantiated altera_avalon_pio "button_pio"
+Info: i2c_temp_sense: "nios2_bemicro_system" instantiated i2c_opencores "i2c_temp_sense"
+Info: jtag_uart: Starting RTL generation for module 'nios2_bemicro_system_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios2_bemicro_system_jtag_uart --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0005_jtag_uart_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0005_jtag_uart_gen//nios2_bemicro_system_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'nios2_bemicro_system_jtag_uart'
+Info: jtag_uart: "nios2_bemicro_system" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led_pio: Starting RTL generation for module 'nios2_bemicro_system_led_pio'
+Info: led_pio:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios2_bemicro_system_led_pio --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0006_led_pio_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0006_led_pio_gen//nios2_bemicro_system_led_pio_component_configuration.pl  --do_build_sim=0  ]
+Info: led_pio: Done RTL generation for module 'nios2_bemicro_system_led_pio'
+Info: led_pio: "nios2_bemicro_system" instantiated altera_avalon_pio "led_pio"
+Info: modular_adc: "nios2_bemicro_system" instantiated altera_modular_adc "modular_adc"
+Info: nios2_cpu: "nios2_bemicro_system" instantiated altera_nios2_gen2 "nios2_cpu"
+Info: onchip_ram: Starting RTL generation for module 'nios2_bemicro_system_onchip_ram'
+Info: onchip_ram:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios2_bemicro_system_onchip_ram --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0007_onchip_ram_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0007_onchip_ram_gen//nios2_bemicro_system_onchip_ram_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_ram: Done RTL generation for module 'nios2_bemicro_system_onchip_ram'
+Info: onchip_ram: "nios2_bemicro_system" instantiated altera_avalon_onchip_memory2 "onchip_ram"
+Info: sdram: Starting RTL generation for module 'nios2_bemicro_system_sdram'
+Info: sdram:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=nios2_bemicro_system_sdram --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0008_sdram_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0008_sdram_gen//nios2_bemicro_system_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'nios2_bemicro_system_sdram'
+Info: sdram: "nios2_bemicro_system" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sdram_pll: "nios2_bemicro_system" instantiated altpll "sdram_pll"
+Info: slow_periph_bridge: "nios2_bemicro_system" instantiated altera_avalon_mm_clock_crossing_bridge "slow_periph_bridge"
+Info: spi_accelerometer: Starting RTL generation for module 'nios2_bemicro_system_spi_accelerometer'
+Info: spi_accelerometer:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64/perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64/perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_spi/generate_rtl.pl --name=nios2_bemicro_system_spi_accelerometer --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0012_spi_accelerometer_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0012_spi_accelerometer_gen//nios2_bemicro_system_spi_accelerometer_component_configuration.pl  --do_build_sim=0  ]
+Info: spi_accelerometer: Done RTL generation for module 'nios2_bemicro_system_spi_accelerometer'
+Info: spi_accelerometer: "nios2_bemicro_system" instantiated altera_avalon_spi "spi_accelerometer"
+Info: sysid: "nios2_bemicro_system" instantiated altera_avalon_sysid_qsys "sysid"
+Info: timer: Starting RTL generation for module 'nios2_bemicro_system_timer'
+Info: timer:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//perl/bin/perl.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/altera_lite/16.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios2_bemicro_system_timer --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0014_timer_gen/ --quartus_dir=C:/altera_lite/16.0/quartus --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0014_timer_gen//nios2_bemicro_system_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: timer: Done RTL generation for module 'nios2_bemicro_system_timer'
+Info: timer: "nios2_bemicro_system" instantiated altera_avalon_timer "timer"
+Info: ufm_flash: Generating top-level entity altera_onchip_flash
+Info: ufm_flash: "nios2_bemicro_system" instantiated altera_onchip_flash "ufm_flash"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios2_bemicro_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_1: "nios2_bemicro_system" instantiated altera_mm_interconnect "mm_interconnect_1"
+Info: irq_mapper: "nios2_bemicro_system" instantiated altera_irq_mapper "irq_mapper"
+Info: irq_synchronizer: "nios2_bemicro_system" instantiated altera_irq_clock_crosser "irq_synchronizer"
+Info: rst_controller: "nios2_bemicro_system" instantiated altera_reset_controller "rst_controller"
+Info: control_internal: "modular_adc" instantiated altera_modular_adc_control "control_internal"
+Info: sequencer_internal: "modular_adc" instantiated altera_modular_adc_sequencer "sequencer_internal"
+Info: sample_store_internal: "modular_adc" instantiated altera_modular_adc_sample_store "sample_store_internal"
+Info: cpu: Starting RTL generation for module 'nios2_bemicro_system_nios2_cpu_cpu'
+Info: cpu:   Generation command is [exec C:/altera_lite/16.0/quartus/bin64//eperlcmd.exe -I C:/altera_lite/16.0/quartus/bin64//perl/lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin/europa -I C:/altera_lite/16.0/quartus/sopc_builder/bin/perl_lib -I C:/altera_lite/16.0/quartus/sopc_builder/bin -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/altera_lite/16.0/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=nios2_bemicro_system_nios2_cpu_cpu --dir=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0022_cpu_gen/ --quartus_bindir=C:/altera_lite/16.0/quartus/bin64/ --verilog --config=C:/Users/spraman/AppData/Local/Temp/alt7060_5992575975972345033.dir/0022_cpu_gen//nios2_bemicro_system_nios2_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2016.09.16 14:03:45 (*) Starting Nios II generation
+Info: cpu: # 2016.09.16 14:03:45 (*)   Checking for plaintext license.
+Info: cpu: # 2016.09.16 14:03:46 (*)   Plaintext license not found.
+Info: cpu: # 2016.09.16 14:03:46 (*)   Checking for encrypted license (non-evaluation).
+Info: cpu: # 2016.09.16 14:03:46 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: cpu: # 2016.09.16 14:03:46 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2016.09.16 14:03:46 (*)   Creating all objects for CPU
+Info: cpu: # 2016.09.16 14:03:46 (*)     Testbench
+Info: cpu: # 2016.09.16 14:03:47 (*)     Instruction decoding
+Info: cpu: # 2016.09.16 14:03:47 (*)       Instruction fields
+Info: cpu: # 2016.09.16 14:03:47 (*)       Instruction decodes
+Info: cpu: # 2016.09.16 14:03:47 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2016.09.16 14:03:47 (*)       Instruction controls
+Info: cpu: # 2016.09.16 14:03:47 (*)     Pipeline frontend
+Info: cpu: # 2016.09.16 14:03:47 (*)     Pipeline backend
+Info: cpu: # 2016.09.16 14:03:50 (*)   Generating RTL from CPU objects
+Info: cpu: # 2016.09.16 14:03:52 (*)   Creating encrypted RTL
+Info: cpu: # 2016.09.16 14:03:53 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios2_bemicro_system_nios2_cpu_cpu'
+Info: cpu: "nios2_cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_cpu_data_master_translator"
+Info: ufm_flash_csr_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "ufm_flash_csr_translator"
+Info: nios2_cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_cpu_data_master_agent"
+Info: ufm_flash_csr_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "ufm_flash_csr_agent"
+Info: ufm_flash_csr_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "ufm_flash_csr_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: router_009: "mm_interconnect_0" instantiated altera_merlin_router "router_009"
+Info: nios2_cpu_data_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "nios2_cpu_data_master_limiter"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: sdram_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sdram_s1_burst_adapter"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_001"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_001"
+Info: rsp_demux_003: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_003"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: sdram_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "sdram_s1_rsp_width_adapter"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_std_synchronizer_nocut.v
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_007: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_007"
+Info: router: "mm_interconnect_1" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_1" instantiated altera_merlin_router "router_001"
+Info: cmd_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_1" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_1" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/spraman/Desktop/BeMicro_SDRAM/Bemicro_m10_embedded_lab_14_0/bemicro_m10_embedded_lab_14_0/nios2_bemicro_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_007" instantiated error_adapter "error_adapter_0"
+Info: nios2_bemicro_system: Done "nios2_bemicro_system" with 58 modules, 109 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

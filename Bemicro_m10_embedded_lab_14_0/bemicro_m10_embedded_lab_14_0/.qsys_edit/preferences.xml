@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="239" />
+   <irq preferredWidth="34" />
+   <inputclock preferredWidth="97" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Project/Memories Interfaces and Controllers,Project/Interface Protocols,Project,Library" />
+ <window width="1368" height="975" x="0" y="0" />
+</preferences>

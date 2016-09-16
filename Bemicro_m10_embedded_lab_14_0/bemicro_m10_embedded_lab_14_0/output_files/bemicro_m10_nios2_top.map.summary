@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Sep 16 14:17:53 2016
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : bemicro_m10_nios2_top
+Top-level Entity Name : bemicro_m10_nios2_top
+Family : MAX 10
+Total logic elements : 5,134
+    Total combinational functions : 4,246
+    Dedicated logic registers : 2,838
+Total registers : 2838
+Total pins : 70
+Total virtual pins : 0
+Total memory bits : 145,240
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 2
+UFM blocks : 1
+ADC blocks : 1

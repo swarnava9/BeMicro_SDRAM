@@ -1,0 +1,51 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios2_bemicro_system.jtag_uart -pg 1 -lvl 4 -y 770
+preplace inst nios2_bemicro_system.nios2_cpu.clock_bridge -pg 1
+preplace inst nios2_bemicro_system.i2c_temp_sense -pg 1 -lvl 4 -y 1170
+preplace inst nios2_bemicro_system.clk_0 -pg 1 -lvl 1 -y 710
+preplace inst nios2_bemicro_system.modular_adc.control_internal -pg 1
+preplace inst nios2_bemicro_system.adc_pll -pg 1 -lvl 3 -y 420
+preplace inst nios2_bemicro_system.timer -pg 1 -lvl 4 -y 950
+preplace inst nios2_bemicro_system.modular_adc.sequencer_internal -pg 1
+preplace inst nios2_bemicro_system.ufm_flash -pg 1 -lvl 4 -y 450
+preplace inst nios2_bemicro_system.sdram_pll -pg 1 -lvl 2 -y 740
+preplace inst nios2_bemicro_system.modular_adc.cb_inst -pg 1
+preplace inst nios2_bemicro_system.button_pio -pg 1 -lvl 4 -y 1050
+preplace inst nios2_bemicro_system.spi_dac -pg 1 -lvl 4 -y 330
+preplace inst nios2_bemicro_system.spi_accelerometer -pg 1 -lvl 4 -y 210
+preplace inst nios2_bemicro_system.modular_adc.rst_inst -pg 1
+preplace inst nios2_bemicro_system.onchip_ram -pg 1 -lvl 4 -y 130
+preplace inst nios2_bemicro_system.nios2_cpu.reset_bridge -pg 1
+preplace inst nios2_bemicro_system.sysid -pg 1 -lvl 4 -y 870
+preplace inst nios2_bemicro_system.modular_adc.sample_store_internal -pg 1
+preplace inst nios2_bemicro_system.slow_periph_bridge -pg 1 -lvl 3 -y 660
+preplace inst nios2_bemicro_system.led_pio -pg 1 -lvl 4 -y 1290
+preplace inst nios2_bemicro_system.sdram -pg 1 -lvl 4 -y 30
+preplace inst nios2_bemicro_system -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios2_bemicro_system.nios2_cpu.cpu -pg 1
+preplace inst nios2_bemicro_system.nios2_cpu -pg 1 -lvl 1 -y 520
+preplace inst nios2_bemicro_system.modular_adc -pg 1 -lvl 4 -y 580
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(MASTER)sdram_pll.c1,(MASTER)nios2_bemicro_system.sdram_pll_80shift) 1 2 3 NJ 630 NJ 760 NJ
+preplace netloc FAN_OUT<net_container>nios2_bemicro_system</net_container>(SLAVE)spi_dac.clk,(SLAVE)slow_periph_bridge.s0_clk,(SLAVE)sdram.clk,(SLAVE)ufm_flash.clk,(SLAVE)modular_adc.clock,(SLAVE)spi_accelerometer.clk,(MASTER)sdram_pll.c0,(SLAVE)nios2_cpu.clk,(SLAVE)onchip_ram.clk1) 1 0 4 190 480 NJ 550 850 590 1290
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)nios2_bemicro_system.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)spi_dac.external,(SLAVE)nios2_bemicro_system.spi_dac) 1 0 4 NJ 360 NJ 360 NJ 360 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)led_pio.external_connection,(SLAVE)nios2_bemicro_system.led_pio_external) 1 0 4 NJ 1320 NJ 1320 NJ 1320 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)nios2_bemicro_system.adc_pll_areset_conduit,(SLAVE)adc_pll.areset_conduit) 1 0 3 NJ 430 NJ 430 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)spi_accelerometer.external,(SLAVE)nios2_bemicro_system.spi_accelerometer) 1 0 4 NJ 240 NJ 240 NJ 240 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)nios2_bemicro_system.button_pio_external,(SLAVE)button_pio.external_connection) 1 0 4 NJ 1080 NJ 1080 NJ 1080 NJ
+preplace netloc FAN_OUT<net_container>nios2_bemicro_system</net_container>(MASTER)sdram_pll.c2,(SLAVE)jtag_uart.clk,(SLAVE)slow_periph_bridge.m0_clk,(SLAVE)led_pio.clk,(SLAVE)sysid.clk,(SLAVE)timer.clk,(SLAVE)button_pio.clk,(SLAVE)i2c_temp_sense.clock) 1 2 2 950 810 1290
+preplace netloc FAN_OUT<net_container>nios2_bemicro_system</net_container>(MASTER)nios2_cpu.irq,(SLAVE)jtag_uart.irq,(SLAVE)i2c_temp_sense.interrupt_sender,(SLAVE)button_pio.irq,(SLAVE)timer.irq,(SLAVE)spi_accelerometer.irq,(SLAVE)modular_adc.sample_store_irq,(SLAVE)spi_dac.irq) 1 1 3 NJ 610 NJ 550 1310
+preplace netloc POINT_TO_POINT<net_container>nios2_bemicro_system</net_container>(SLAVE)adc_pll.locked_conduit,(SLAVE)modular_adc.adc_pll_locked) 1 2 2 950 570 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)i2c_temp_sense.export,(SLAVE)nios2_bemicro_system.i2c_temp_sense) 1 0 4 NJ 1240 NJ 1240 NJ 1240 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)sdram_pll.locked_conduit,(SLAVE)nios2_bemicro_system.sdram_pll_locked_conduit) 1 0 2 NJ 810 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)sdram_pll.areset_conduit,(SLAVE)nios2_bemicro_system.sdram_pll_areset_conduit) 1 0 2 NJ 780 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)sdram.wire,(SLAVE)nios2_bemicro_system.sdram) 1 0 4 NJ 100 NJ 100 NJ 100 NJ
+preplace netloc FAN_OUT<net_container>nios2_bemicro_system</net_container>(SLAVE)sdram_pll.inclk_interface,(SLAVE)adc_pll.inclk_interface,(MASTER)clk_0.clk) 1 1 2 630 470 NJ
+preplace netloc EXPORT<net_container>nios2_bemicro_system</net_container>(SLAVE)clk_0.clk_in,(SLAVE)nios2_bemicro_system.clk) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>nios2_bemicro_system</net_container>(MASTER)adc_pll.c0,(SLAVE)modular_adc.adc_pll_clock) 1 3 1 1210
+preplace netloc INTERCONNECT<net_container>nios2_bemicro_system</net_container>(SLAVE)modular_adc.sequencer_csr,(SLAVE)spi_accelerometer.spi_control_port,(SLAVE)sdram_pll.pll_slave,(SLAVE)slow_periph_bridge.s0,(MASTER)nios2_cpu.instruction_master,(SLAVE)spi_dac.spi_control_port,(SLAVE)nios2_cpu.debug_mem_slave,(SLAVE)modular_adc.sample_store_csr,(SLAVE)onchip_ram.s1,(SLAVE)ufm_flash.csr,(SLAVE)ufm_flash.data,(MASTER)nios2_cpu.data_master,(SLAVE)adc_pll.pll_slave,(SLAVE)sdram.s1) 1 0 4 190 660 590 530 930 610 1230
+preplace netloc INTERCONNECT<net_container>nios2_bemicro_system</net_container>(SLAVE)button_pio.reset,(MASTER)clk_0.clk_reset,(SLAVE)timer.reset,(SLAVE)i2c_temp_sense.clock_reset,(SLAVE)spi_dac.reset,(MASTER)nios2_cpu.debug_reset_request,(SLAVE)led_pio.reset,(SLAVE)nios2_cpu.reset,(SLAVE)spi_accelerometer.reset,(SLAVE)slow_periph_bridge.s0_reset,(SLAVE)jtag_uart.reset,(SLAVE)adc_pll.inclk_interface_reset,(SLAVE)ufm_flash.nreset,(SLAVE)sysid.reset,(SLAVE)sdram_pll.inclk_interface_reset,(SLAVE)sdram.reset,(SLAVE)onchip_ram.reset1,(SLAVE)slow_periph_bridge.m0_reset,(SLAVE)modular_adc.reset_sink) 1 0 4 210 680 570 510 890 650 1250
+preplace netloc FAN_OUT<net_container>nios2_bemicro_system</net_container>(SLAVE)led_pio.s1,(MASTER)slow_periph_bridge.m0,(SLAVE)i2c_temp_sense.avalon_slave_0,(SLAVE)timer.s1,(SLAVE)sysid.control_slave,(SLAVE)button_pio.s1,(SLAVE)jtag_uart.avalon_jtag_slave) 1 3 1 1190
+levelinfo -pg 1 0 160 1720
+levelinfo -hier nios2_bemicro_system 170 330 660 1000 1430 1580
